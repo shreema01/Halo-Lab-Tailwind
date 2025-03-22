@@ -20,11 +20,12 @@ html {
 }
 
 .header {
-  border-top: 1px solid #fffc;
-  border-bottom: 1px solid #fffc;
+  border-top: 1.5px solid #fffc;
+  border-bottom: 1.5px solid #fffc;
   display: flex;
   justify-content: space-between;
-  margin: 20px 60px;
+  margin: 40px 60px;
+  padding:10px;
 }
 
 .navbar_menu {
@@ -34,8 +35,8 @@ html {
   width: 725px;
   color: white;
   text-transform: uppercase;
-  margin: 10px 5px;
-  padding: 5px 5px;
+  margin: 10px;
+  padding: 12px;
   font-weight: 300;
 }
 
