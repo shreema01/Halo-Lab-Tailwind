@@ -72,6 +72,12 @@ html {
 .navbar_menu_section {
   display: flex;
   text-transform: uppercase;
+  
+  /* gap:2px; */
+}
+.services_icon {
+  margin:8px;
+  margin-top:3px;
 }
 
 /* Header Section(End) */
