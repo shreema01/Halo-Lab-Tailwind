@@ -85,15 +85,17 @@ html {
 /* Main Section(Start) */
 /* Top Rank portion(Start) */
 
-.Top_Rank {
-  background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6478406e98d928dcf090e1ca_bg-card-hero_tablet.webp);
+.top_rank{
+  /* background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6478406e98d928dcf090e1ca_bg-card-hero_tablet.webp);
   width: 55%;
   background-size: 100% 100%;
   flex-direction: column;
   display: flex;
   position: relative;
   margin: 30px;
-  padding: 2.5rem 1.5rem 1.5rem;
+  padding: 2.5rem 1.5rem 1.5rem; */
+  margin:50px;
+  padding:10px;
 }
 
 .Top_Rank_percentage {
