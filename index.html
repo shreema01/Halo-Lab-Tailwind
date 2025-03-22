@@ -587,22 +587,11 @@
         </div>
       </div>
     </div>
-
-
-
-
     <!--========================   Booking end ==================== -->
-
-
-
-
-
-
   </main>
 
   <script>
     let currentIndex = 0;
-
     function moveSlide(direction) {
       const carousel = document.getElementById("carousel");
       const items = carousel.querySelectorAll("div");
@@ -610,7 +599,6 @@
 
       currentIndex = (currentIndex + direction + totalItems) % totalItems;
 
-      // Move the carousel container to the desired position
       carousel.scrollTo({
         left: items[currentIndex].offsetLeft,
         behavior: 'smooth',
@@ -618,5 +606,4 @@
     }
   </script>
 </body>
-
 </html>

@@ -72,9 +72,8 @@ html {
 .navbar_menu_section {
   display: flex;
   text-transform: uppercase;
-  
-  /* gap:2px; */
 }
+
 .services_icon {
   margin:8px;
   margin-top:3px;
@@ -320,16 +319,6 @@ img {
 .flex {
   display: flex;
 }
-
-
-
-
-
-
-
-
-
-
 
 .awards-container {
   display: flex;
@@ -672,9 +661,6 @@ img {
 
 /* top article-image portion(Start) */
 
-/* Main Section(End) */
-
-
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -683,10 +669,11 @@ img {
   -ms-overflow-style: none; 
   scrollbar-width: none; 
 }
+
 .founder_text{
   font-weight: 500;
 }
+
 .hot_article_icon{
   color:white;
-  /* margin-left:20px; */
 }
