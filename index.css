@@ -659,7 +659,7 @@ img {
 
 .hide-scrollbar {
   -ms-overflow-style: none; 
-  scrollbar-width: none; 
+  scrollbar-width: none;
 }
 
 .founder_text{
@@ -668,4 +668,32 @@ img {
 
 .hot_article_icon{
   color:white;
+}
+/* =============  Main Section End   ============ */
+
+/* ============= Footer Section Start  ============ */
+
+.first_p{
+  color:white;
+  font-weight: 600;
+  font-size: large;
+  letter-spacing: -.055rem;
+  text-transform: none;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.1;
+  position: relative;
+  text-align: left;
+  color: white;
+  width: 100%;
+}
+.input.mod--footer {
+  letter-spacing: .01em;
+  border: .0625rem solid #fffc;
+  border-radius: 20rem;
+  height:100px;
+  padding-left: 1.5rem;
+  padding-right: 3.5rem;
+  width:max-content;
+  background-color: #02021e;
 }
