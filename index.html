@@ -608,7 +608,7 @@
     function moveSlide(direction) {
       const carousel = document.getElementById("carousel");
       const items = carousel.querySelectorAll("div");
-      const totalItems = items.length;
+      const totalItems = items.length;[]
 
       currentIndex = (currentIndex + direction + totalItems) % totalItems;
 
